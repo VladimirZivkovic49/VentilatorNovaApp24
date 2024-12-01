@@ -1,0 +1,21 @@
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+.vs/
+*.suo
+*.user
+*.rsuser
+
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore logs
+*.log
+
+# Ignore IDE-specific settings
+*.idea/
+*.vscode/
+
+# Ignore backup and temporary files
+*.bak
+*.tmp
