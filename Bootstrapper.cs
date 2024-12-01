@@ -1,0 +1,28 @@
+﻿using Caliburn.Micro;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.AccessControl;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using VentilatorNovi1dec24.ViewModels;
+
+namespace VentilatorNovi1dec24
+{
+    public class Bootstrapper: BootstrapperBase
+    {
+        public Bootstrapper()
+        {
+            Initialize();
+
+        }
+
+        protected override void OnStartup(object Sender, StartupEventArgs e)
+        {
+            DisplayRootViewForAsync<ShellViewModel>();
+
+        }
+   
+    }
+}
